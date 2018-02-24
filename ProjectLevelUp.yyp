@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "2836d6ac-8560-4762-8e53-003b75a648a8",
+            "Value": {
+                "id": "87934de4-7d4d-4740-9ff1-e85e82aa54ba",
+                "resourcePath": "tilesets\\forest_background_tile\\forest_background_tile.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "3580609b-61f6-4079-965d-e53e136223d7",
             "Value": {
                 "id": "a26fc413-87b5-467c-8874-f7b04ad5cfc9",
@@ -135,6 +143,22 @@
             }
         },
         {
+            "Key": "520c2b3b-57bc-468b-965b-da47114207ee",
+            "Value": {
+                "id": "396fcd20-98c4-41fe-a2bb-791bdbdae1e8",
+                "resourcePath": "tilesets\\mountain_background_tile\\mountain_background_tile.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "5c27a94c-e75e-481b-b553-7f5fa88cd7e6",
+            "Value": {
+                "id": "c0f81d3d-f515-4517-8cfc-b5a36220a431",
+                "resourcePath": "tilesets\\swamp_background_tile\\swamp_background_tile.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "60e386b1-3cee-405f-8fc1-15b0ce1f409e",
             "Value": {
                 "id": "c956dd1f-0135-4c58-afdc-b5533b3d1326",
@@ -167,10 +191,34 @@
             }
         },
         {
+            "Key": "6d923440-4db3-452a-9179-7beb0b4a0648",
+            "Value": {
+                "id": "b65f94c0-3e30-42c9-a267-e9e79b7038f7",
+                "resourcePath": "sprites\\swamp_background\\swamp_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "716cb294-2001-4ace-b8bc-3966a771320e",
+            "Value": {
+                "id": "0b0d6b84-9805-48f1-8d6c-f3f4aaf4fa79",
+                "resourcePath": "sprites\\mountain_background\\mountain_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "771dfdc1-e1ca-4439-b3de-4bf6db766a12",
             "Value": {
                 "id": "ff186fe0-9738-45fa-aa1e-6152efcbd2fb",
                 "resourcePath": "sprites\\castle_background\\castle_background.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8eec52e6-e208-4eac-8735-579dd4bd320c",
+            "Value": {
+                "id": "3e10628d-8b6d-4faa-9036-d43659996065",
+                "resourcePath": "sprites\\forest_background\\forest_background.yy",
                 "resourceType": "GMSprite"
             }
         },

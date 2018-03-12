@@ -10,10 +10,18 @@ else {
 if (keyboard_check(vk_right)) {
 	x = x + 5;
 	sprite_index = dude_spr_running;
+	if (!lookingRight) {
+		image_xscale = 1;
+		lookingRight = true;
+	}
 }
 if (keyboard_check(vk_left)) {
 	x = x - 5;
 	sprite_index = dude_spr_running;
+	if (lookingRight) {
+		image_xscale = -1;
+		lookingRight = false;
+	}
 }
 if (keyboard_check(vk_down)) {
 	//y = y + 5;

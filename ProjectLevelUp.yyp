@@ -175,6 +175,14 @@
             }
         },
         {
+            "Key": "5d584d61-dbd4-4bae-a26a-45e20a9c7421",
+            "Value": {
+                "id": "16bd5bcc-20cb-4a24-85ec-a2c503e3514b",
+                "resourcePath": "sprites\\spikes2_spr\\spikes2_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "60e386b1-3cee-405f-8fc1-15b0ce1f409e",
             "Value": {
                 "id": "c956dd1f-0135-4c58-afdc-b5533b3d1326",
@@ -239,6 +247,14 @@
             }
         },
         {
+            "Key": "7ac2736a-8e27-482e-9f0f-989e2a67dbff",
+            "Value": {
+                "id": "1b6d30a9-fc10-454b-a575-84e9474be7cc",
+                "resourcePath": "objects\\falling_spikes_obj\\falling_spikes_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8eec52e6-e208-4eac-8735-579dd4bd320c",
             "Value": {
                 "id": "3e10628d-8b6d-4faa-9036-d43659996065",
@@ -284,6 +300,14 @@
                 "id": "c588bcc6-c4f6-4591-ae96-d39ae3b44e5d",
                 "resourcePath": "objects\\spikes_obj\\spikes_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "55df1b53-be56-4a2a-9bae-e812e1c59040",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
             }
         },
         {
@@ -388,6 +412,14 @@
                 "id": "fc5a8041-f9da-4c74-9798-4e006fd7967b",
                 "resourcePath": "rooms\\Forest2\\Forest2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "0b7f3578-c650-4c3b-bd30-8f028f960a14",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {

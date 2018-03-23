@@ -69,3 +69,16 @@ if (keyboard_check(vk_up) && !jump) {
 if (!keyboard_check(vk_up) && !keyboard_check(vk_left) && ! keyboard_check(vk_right)) {
 	sprite_index = dude_spr_idle;
 }
+
+if (y > room_height) {
+	room_restart();
+}
+
+if ( keyboard_check_released(ord("R")) ) {
+	room_restart();
+}
+
+if ( keyboard_check_released(ord("S")) ) {
+	room_goto(Swamp1);
+	
+}

@@ -14,8 +14,8 @@ else {
 }
 
 // Jumping into a platform check
-if (place_meeting(x,y-7+yVel,platform_obj)) {
-	while (!place_meeting(x,y-7+sign(yVel), platform_obj)) {
+if (place_meeting(x,y-10+yVel,platform_obj)) {
+	while (!place_meeting(x,y-10+sign(yVel), platform_obj)) {
 		y = y + sign(yVel);
 	}
 	yVel = 0;
@@ -64,6 +64,7 @@ if (keyboard_check(vk_down)) {
 if (keyboard_check(vk_up) && !jump) {
 	yVel = -20;
 	sprite_index = dude_spr_running;
+	audio_play_sound(jump_snd, 1, false);
 	jump = true;
 }
 if (!keyboard_check(vk_up) && !keyboard_check(vk_left) && ! keyboard_check(vk_right)) {

@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0f9c397a-f9dc-469a-ad73-1f721e80bceb",
+            "Value": {
+                "id": "128439f1-44f8-4caa-99e9-2fe26a42b95a",
+                "resourcePath": "objects\\background_music_obj\\background_music_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1327e5e2-263f-453e-89e9-d58259d82e5d",
             "Value": {
                 "id": "e4d3c694-5f97-47bc-ac2a-95d265659c5e",
@@ -143,6 +151,14 @@
             }
         },
         {
+            "Key": "4525fa92-2c43-48d8-8181-f87b09a4f445",
+            "Value": {
+                "id": "fba435b4-a99b-4ddf-994b-b4cd0f02b04c",
+                "resourcePath": "sounds\\jump_snd\\jump_snd.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "45810a34-26e1-434a-866a-a9f4bf186586",
             "Value": {
                 "id": "5a687109-62f6-40a9-89e8-6015cfb8c5c8",
@@ -196,6 +212,14 @@
                 "id": "c956dd1f-0135-4c58-afdc-b5533b3d1326",
                 "resourcePath": "objects\\portal_obj\\portal_obj.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6343d741-ed24-437c-8191-aecc34d30d37",
+            "Value": {
+                "id": "a9ce0a77-92d2-442b-b8a2-90fed1cf48f9",
+                "resourcePath": "sounds\\lvlup_snd\\lvlup_snd.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -407,11 +431,27 @@
             }
         },
         {
+            "Key": "d4d3372d-e53b-42ff-91f4-71ca0d457a5a",
+            "Value": {
+                "id": "10c53c41-434b-4d63-b209-0ff4ef15e65c",
+                "resourcePath": "sounds\\background_song_snd\\background_song_snd.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "dc89d43e-d6c3-4126-83a3-406a31202e8c",
             "Value": {
                 "id": "0aaa3be5-8e7f-4fdb-8ae0-773e3ca00396",
                 "resourcePath": "views\\dc89d43e-d6c3-4126-83a3-406a31202e8c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "df917215-5fb4-4696-a86b-c11892895850",
+            "Value": {
+                "id": "c9063fe5-1001-40de-a8bf-da67928209f7",
+                "resourcePath": "sounds\\death_snd\\death_snd.yy",
+                "resourceType": "GMSound"
             }
         },
         {

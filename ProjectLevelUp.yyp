@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "1be70fd0-0ed5-4bfa-8e48-53d7502bd997",
+            "Value": {
+                "id": "1339018d-3db3-44e1-87cf-d80a9afa8caa",
+                "resourcePath": "tilesets\\tileset_mtns\\tileset_mtns.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "1f7bd0d0-fe0c-4b82-a671-e5a2c723313f",
             "Value": {
                 "id": "8502fb4f-2cba-40f9-9260-13174d15a587",
@@ -191,6 +199,14 @@
             }
         },
         {
+            "Key": "5bfe5486-4dcf-4dc5-bbf5-3f7564185757",
+            "Value": {
+                "id": "21d3a729-0fd3-444b-8e32-e3d5fd33635a",
+                "resourcePath": "sprites\\mtns_tle_spr\\mtns_tle_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5c27a94c-e75e-481b-b553-7f5fa88cd7e6",
             "Value": {
                 "id": "c0f81d3d-f515-4517-8cfc-b5a36220a431",
@@ -287,6 +303,14 @@
             }
         },
         {
+            "Key": "8c9318b8-8f8c-4fc7-b859-b679c5d4cfaf",
+            "Value": {
+                "id": "eaa31160-1773-47d8-a060-34030fd90072",
+                "resourcePath": "tilesets\\tileset_woods\\tileset_woods.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "8eec52e6-e208-4eac-8735-579dd4bd320c",
             "Value": {
                 "id": "3e10628d-8b6d-4faa-9036-d43659996065",
@@ -316,6 +340,14 @@
                 "id": "c7313d06-c610-4b25-8763-87be114109c7",
                 "resourcePath": "rooms\\Swamp3\\Swamp3.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "9b2dc164-99a6-4f1f-bb3f-a9a1cbc2e10e",
+            "Value": {
+                "id": "33680a6e-657e-442c-9e23-71a3c83a5c94",
+                "resourcePath": "sprites\\swamps_tile_spr\\swamps_tile_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -354,7 +386,15 @@
             "Key": "ac46cb5d-e69c-4d20-a3cb-fd7e17bc743d",
             "Value": {
                 "id": "6016f70d-2acb-4210-ba3a-bb154fe5bf9b",
-                "resourcePath": "sprites\\tile_spr\\tile_spr.yy",
+                "resourcePath": "sprites\\castle_tile_spr\\castle_tile_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "af62f45c-963d-45a5-9d2a-6ffdb29c4b61",
+            "Value": {
+                "id": "d8806333-7fa4-4d88-9350-5e98d40cbf09",
+                "resourcePath": "sprites\\woods_tile_spr\\woods_tile_spr.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -364,6 +404,14 @@
                 "id": "8eefd399-8539-4ab1-8273-d79df9df223d",
                 "resourcePath": "rooms\\Swamp2\\Swamp2.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b6bbf1bd-ec72-416a-a6b4-9b41b24faa8f",
+            "Value": {
+                "id": "3202c873-6f77-4833-b936-845ce3151e4f",
+                "resourcePath": "tilesets\\tileset_swamps\\tileset_swamps.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -452,6 +500,14 @@
                 "id": "c9063fe5-1001-40de-a8bf-da67928209f7",
                 "resourcePath": "sounds\\death_snd\\death_snd.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "e5cbb5a7-f674-4cfe-858b-d825163d258c",
+            "Value": {
+                "id": "ee07aeee-84f3-4a6a-a910-77c6ae18709e",
+                "resourcePath": "tilesets\\tileset_castle\\tileset_castle.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {

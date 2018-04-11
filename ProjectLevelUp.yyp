@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "6b650937-911d-4871-b22c-5f21112c43a1",
+            "Value": {
+                "id": "a40c0574-934d-4088-aca7-52dc3d146d14",
+                "resourcePath": "sounds\\fall_snd\\fall_snd.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6d923440-4db3-452a-9179-7beb0b4a0648",
             "Value": {
                 "id": "b65f94c0-3e30-42c9-a267-e9e79b7038f7",
@@ -268,6 +276,14 @@
                 "id": "0b0d6b84-9805-48f1-8d6c-f3f4aaf4fa79",
                 "resourcePath": "sprites\\mountain_background\\mountain_background.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "76634e53-397e-45ff-b416-36c35d6beeab",
+            "Value": {
+                "id": "f24de134-6fdd-401f-b4ac-f74333f85d43",
+                "resourcePath": "sounds\\stab_snd\\stab_snd.yy",
+                "resourceType": "GMSound"
             }
         },
         {

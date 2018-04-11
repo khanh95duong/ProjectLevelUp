@@ -72,6 +72,9 @@ if (!keyboard_check(vk_up) && !keyboard_check(vk_left) && ! keyboard_check(vk_ri
 }
 
 if (y > room_height) {
+	if (!audio_is_playing(fall_snd)) {
+		audio_play_sound(fall_snd, 1, false);
+	}
 	room_restart();
 }
 

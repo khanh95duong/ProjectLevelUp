@@ -1,0 +1,2 @@
+startX = x;
+right = true;

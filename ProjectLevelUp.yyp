@@ -559,6 +559,14 @@
             }
         },
         {
+            "Key": "ed21d639-5e8a-4ebb-af5c-24afbd06d457",
+            "Value": {
+                "id": "adef4e13-5206-44f7-a338-cb3e2b6d6376",
+                "resourcePath": "objects\\moving_portal_obj\\moving_portal_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "0b7f3578-c650-4c3b-bd30-8f028f960a14",

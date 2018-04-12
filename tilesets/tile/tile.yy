@@ -25,7 +25,7 @@
         "FrameData": [
             
         ],
-        "SerialiseFrameCount": 0
+        "SerialiseFrameCount": 1
     },
     "tile_animation_frames": [
         

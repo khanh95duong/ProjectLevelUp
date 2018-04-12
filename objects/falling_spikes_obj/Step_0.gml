@@ -3,11 +3,11 @@
 
 if ( (dude_obj.x > x - 32 ) && (dude_obj.x < x + 32) ) {
 	falling = true;
-	timeStep++;
+	//timeStep++;
 }
 
 if (falling == true) {
-	y += 0.5 * timeStep * 9.81;
+	y += 40;
 }
 
 if (y > room_height) {

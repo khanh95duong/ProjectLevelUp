@@ -27,11 +27,11 @@ if (yVel > 0) {
 y = y + yVel;
 
 if (keyboard_check(vk_right)) {
-	if (!place_meeting(x+5+4,y,platform_obj)) { // Collision detection
+	if (!place_meeting(x+5+5,y,platform_obj)) { // Collision detection
 		x = x + 5;
 	}
 	else {
-		while (!place_meeting(x+sign(5)+4,y, platform_obj)) {
+		while (!place_meeting(x+sign(5)+5,y, platform_obj)) {
 			x = x + sign(5);
 		}
 	}
@@ -43,11 +43,11 @@ if (keyboard_check(vk_right)) {
 }
 if (keyboard_check(vk_left)) {
 	
-	if (!place_meeting(x-5-4,y,platform_obj)) { // Collision detection
+	if (!place_meeting(x-5-5,y,platform_obj)) { // Collision detection
 		x = x - 5;
 	}
 	else {
-		while (!place_meeting(x+sign(-5)-4,y, platform_obj)) {
+		while (!place_meeting(x+sign(-5)-5,y, platform_obj)) {
 			x = x + sign(-5);
 		}
 	}
@@ -82,7 +82,34 @@ if ( keyboard_check_released(ord("R")) ) {
 	room_restart();
 }
 
-if ( keyboard_check_released(ord("S")) ) {
+// For debugging each level
+if ( keyboard_check_released(ord("1")) ) {
+	room_goto(AbnCastle);
+}
+if ( keyboard_check_released(ord("2")) ) {
+	room_goto(Forest1);
+}
+if ( keyboard_check_released(ord("3")) ) {
+	room_goto(Forest2);
+}
+if ( keyboard_check_released(ord("4")) ) {
+	room_goto(Forest3);
+}
+if ( keyboard_check_released(ord("5")) ) {
+	room_goto(Mountain1);
+}
+if ( keyboard_check_released(ord("6")) ) {
+	room_goto(Mountain2);
+}
+if ( keyboard_check_released(ord("7")) ) {
+	room_goto(Mountain3);
+}
+if ( keyboard_check_released(ord("8")) ) {
 	room_goto(Swamp1);
-	
+}
+if ( keyboard_check_released(ord("9")) ) {
+	room_goto(Swamp2);
+}
+if ( keyboard_check_released(ord("0")) ) {
+	room_goto(Swamp3);
 }

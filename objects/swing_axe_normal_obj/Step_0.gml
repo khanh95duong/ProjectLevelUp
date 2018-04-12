@@ -5,9 +5,9 @@ else {
 	image_angle -= 5;
 }
 
-if (image_angle > 90) {
+if (image_angle > start_angle + 90) {
 	forward = false;
 }
-else if (image_angle < -90) {
+else if (image_angle < start_angle - 90) {
 	forward = true;
 }

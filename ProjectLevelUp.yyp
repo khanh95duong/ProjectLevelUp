@@ -415,6 +415,14 @@
             }
         },
         {
+            "Key": "ac58e381-515a-4505-9b0c-17eb8f6d7da9",
+            "Value": {
+                "id": "9aa7f64c-b815-46f0-be21-3d53bd2f72f7",
+                "resourcePath": "objects\\death_tracker_obj\\death_tracker_obj.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "af62f45c-963d-45a5-9d2a-6ffdb29c4b61",
             "Value": {
                 "id": "d8806333-7fa4-4d88-9350-5e98d40cbf09",

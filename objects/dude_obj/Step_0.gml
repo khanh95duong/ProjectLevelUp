@@ -1,21 +1,21 @@
 // Gravity Check
-if (place_meeting(x,y+7+yVel,platform_obj)) { // Other conditions here to check for tiles
+if (place_meeting(x+5+5,y+10+yVel,platform_obj) && place_meeting(x-5-5,y+10+yVel,platform_obj)) { // Other conditions here to check for tiles
 	if (falling) {
-		while (!place_meeting(x,y+7+sign(yVel), platform_obj)) {
+		while (!place_meeting(x+5+5,y+10+sign(yVel), platform_obj) && !place_meeting(x-5-5,y+10+sign(yVel), platform_obj)) {
 			y = y + sign(yVel);
 		}
 		falling = false;
+		yVel = 0;
+		jump = false;
 	}
-	yVel = 0;
-	jump = false;
 }
 else {
 	yVel = yVel + gravityAccel;
 }
 
 // Jumping into a platform check
-if (place_meeting(x,y-10+yVel,platform_obj)) {
-	while (!place_meeting(x,y-10+sign(yVel), platform_obj)) {
+if (place_meeting(x+5+5,y-10+yVel,platform_obj) && place_meeting(x-5-5,y-10+yVel,platform_obj)) {	
+	while (!place_meeting(x+5+5,y-10+sign(yVel), platform_obj) && !place_meeting(x-5-5,y-10+yVel,platform_obj)) {
 		y = y + sign(yVel);
 	}
 	yVel = 0;
@@ -75,10 +75,12 @@ if (y > room_height) {
 	if (!audio_is_playing(fall_snd)) {
 		audio_play_sound(fall_snd, 1, false);
 	}
+	death_tracker_obj.deaths++;
 	room_restart();
 }
 
 if ( keyboard_check_released(ord("R")) ) {
+	death_tracker_obj.deaths++;
 	room_restart();
 }
 

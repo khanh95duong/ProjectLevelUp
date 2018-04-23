@@ -12,7 +12,7 @@ if (moveLeft == true) {
 	}
 	
 	if (continueMoving) {
-		x -= 5;
+		x -= AXE_SPEED;
 	}
 }
 
@@ -27,7 +27,7 @@ else if (moveRight == true) {
 		instance_destroy();
 	}
 	if (continueMoving) {
-		x += 5;
+		x += AXE_SPEED;
 	}
 }
 

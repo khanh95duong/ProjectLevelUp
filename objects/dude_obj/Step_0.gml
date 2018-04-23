@@ -115,3 +115,6 @@ if ( keyboard_check_released(ord("9")) ) {
 if ( keyboard_check_released(ord("0")) ) {
 	room_goto(Swamp3);
 }
+if ( keyboard_check_released(ord("P")) ) {
+	room_goto(endScreen);
+}

@@ -12,7 +12,7 @@ lookingRight = true;
 
 // Jump logic
 jump = false;
-//falling = false;
+falling = false;
 
 // Check to see if player has a key
 hasKey = false;

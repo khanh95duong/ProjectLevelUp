@@ -1,4 +1,4 @@
-// Gravity Check
+/*// Gravity Check
 if (place_meeting(x+5+5,y+10+yVel,platform_obj) && place_meeting(x-5-5,y+10+yVel,platform_obj)) { // Other conditions here to check for tiles
 	if (falling) {
 		while (!place_meeting(x+5+5,y+10+sign(yVel), platform_obj) && !place_meeting(x-5-5,y+10+sign(yVel), platform_obj)) {
@@ -117,8 +117,8 @@ if ( keyboard_check_released(ord("0")) ) {
 }
 if ( keyboard_check_released(ord("P")) ) {
 	room_goto(endScreen);
-}
-/*if (keyboard_check(vk_right)) {
+}*/
+if (keyboard_check(vk_right)) {
 	mr = 1;
 	sprite_index = dude_spr_running;
 	if (!lookingRight) {
@@ -189,7 +189,7 @@ else {
 			break;
 		}
 	}
-}*/
+}
 
 // Gravity Check
 /*if (place_meeting(x,y+yVel,platform_obj)) { // Other conditions here to check for tiles
@@ -220,7 +220,7 @@ if (yVel > 0) {
 
 //y = y + yVel;
 
-/*
+
 if (y > room_height) {
 	if (!audio_is_playing(fall_snd)) {
 		audio_play_sound(fall_snd, 1, false);
@@ -267,4 +267,4 @@ if ( keyboard_check_released(ord("0")) ) {
 }
 if ( keyboard_check_released(ord("P")) ) {
 	room_goto(endScreen);
-} */
+} 
